@@ -1,6 +1,6 @@
 /*
- * Author: Kyle Vedder
- * URL: vedder.io
+ * Author: Bjorn Johnson
+ * URL: bubbabitney.github.io
  *
  */
 
@@ -152,4 +152,59 @@ body {
 
 .name p a:hover {
     color: gray;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: ;
+    min-width: 500px;
+    max-width: 500px
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+}
+
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 6px;
+    margin-bottom: 0px;
+}
+
+.transbox h2 {
+    margin: 9%;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 6px;
+    margin-bottom: 0px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
