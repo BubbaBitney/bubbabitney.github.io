@@ -139,7 +139,14 @@ body {
 .text p a:hover {
     color: gray;
 }
-
+.text a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: #2c84ff;
+}
 .name p {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
