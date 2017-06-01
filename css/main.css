@@ -1,17 +1,17 @@
- -/*
- * Author: Bjorn Johnson
+ /*
+ *Author: Bjorn Johnson
  * URL: bubbabitney.github.io
  *
  */
 
-body {
+.body {
     padding-top: 100px;
     background: url(../img/background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: black;
+    background-color: ;
 }
 
 
