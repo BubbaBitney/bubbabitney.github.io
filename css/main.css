@@ -233,18 +233,3 @@
     color: #ffffff;
 }
 
-.squarerounded {
-    position: absolute;
-    left: 0;
-    width:80px;
-    height:80px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    border:8px solid #3021FF;
-    background-color:#D8E3DE;
-    
-    background: url(../img/me.png) no-repeat;
-    background-size: 80px 80px;
-
-}
